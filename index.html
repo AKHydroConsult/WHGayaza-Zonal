@@ -19,7 +19,7 @@
             margin: 0;
         }
         </style>
-        <title>Worship Harvest Gayaza Proposed Zonal Demarkation</title>
+        <title>Worship Harvest Gayaza Proposed Zonal Demarcation</title>
     </head>
     <body>
         <div id="map">
@@ -97,7 +97,7 @@
             return this._div;
         };
         title.update = function () {
-            this._div.innerHTML = '<h2>Worship Harvest Gayaza Proposed Zonal Demarkation</h2>';
+            this._div.innerHTML = '<h2>Worship Harvest Gayaza Proposed Zonal Demarcation</h2>';
         };
         title.addTo(map);
         var abstract = new L.Control({'position':'bottomright'});
@@ -112,7 +112,7 @@
             abstract.show = function () {
                 this._div.classList.remove("abstract");
                 this._div.classList.add("abstractUncollapsed");
-                this._div.innerHTML = 'This is a webmap to view the proposed zone demarkations at Worship Harvest Gayaza';
+                this._div.innerHTML = 'This is a webmap to view the proposed zone demarcations at Worship Harvest Gayaza';
         };
         abstract.addTo(map);
         var zoomControl = L.control.zoom({
