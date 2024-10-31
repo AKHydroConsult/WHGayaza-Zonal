@@ -1,0 +1,1 @@
+var json_WHGayazaCathedral_3 = {"type":"FeatureCollection","name":"WHGayazaCathedral_3","crs":{"type":"name","properties":{"name":"urn:ogc:def:crs:OGC:1.3:CRS84"}},"features":[{"type":"Feature","properties":{"id":"1","Name":"WHGayaza Cathedral"},"geometry":{"type":"Point","coordinates":[32.606041464024116,0.444653337721529]}}]}
